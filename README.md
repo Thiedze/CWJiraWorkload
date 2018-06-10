@@ -1,4 +1,4 @@
-# jira-workload
+# CWJiraWorkload
 A little python script to create a monthly workload of a given user from jira 
 
 ## ~/.netrc
