@@ -18,7 +18,7 @@ Change "date = datetime.date(2018, 6, 1)" to your wish year and month to get all
 ## Output
 The output is a confluence markup formatted console output. You can esaly copy & paste it into the markup editor of conflluence to report your workload.   
 
-## Outpu example
+## Output example
 ```
 | Issue | Workload |
 |[AA-7|<YOUR_ACCOUNT>/AA-7] Summary AA| 2.0h|
