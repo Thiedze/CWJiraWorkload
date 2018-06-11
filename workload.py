@@ -34,7 +34,8 @@ class Workload():
         for issue in issues:
             for history in issue.changelog.histories:
                 created = parser.parse(history.created).date()
-                if created >= self.getFirstDate(date) and created <= self.getLastDate(date):
+                if created >= self.getFirstDate(date) and created <= self.getLastDate(
+                        date) and history.author.key == self.username:
                     for item in history.items:
                         if 'timespent' == item.field:
                             if item.fromString == None:
