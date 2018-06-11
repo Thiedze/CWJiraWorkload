@@ -9,6 +9,12 @@ machine jira
 	login <YOUR_JIRA_USERNAME>
 	password <YOUR_PASSWORD>
 ```
+Than change the permissions from the netrc file
+
+```
+chmod og-rw /home/thiedze/.netrc
+```
+
 # Python packages
 You need *pip install py-dateutil* and *pip install jira*
 
