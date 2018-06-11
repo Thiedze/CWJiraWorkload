@@ -10,7 +10,7 @@ machine jira
 	password <YOUR_PASSWORD>
 ```
 # Python packages
-You need *pip install py-dateutils* and *pip install jira*
+You need *pip install py-dateutil* and *pip install jira*
 
 ## Selected year and month
 Change "date = datetime.date(2018, 6, 1)" to your wish year and month to get all jira issues with the total workload on it.  
